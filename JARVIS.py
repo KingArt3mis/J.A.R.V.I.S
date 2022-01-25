@@ -1041,7 +1041,7 @@ class MainThread(QThread):
 
     #News
     def news(self):
-        MAIN_URL_= "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=YOUR_NEWS_API_KEY"
+        MAIN_URL_= "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=873a12308426481e92fc5aba2d16780e"
         MAIN_PAGE_ = get(MAIN_URL_).json()
         articles = MAIN_PAGE_["articles"]
         headings=[]
